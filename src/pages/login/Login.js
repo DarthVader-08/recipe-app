@@ -15,7 +15,7 @@ const Login = () => {
     event.preventDefault();
     sessionStorage.setItem("user", JSON.stringify(user));
 
-    window.location.href = "/home";
+    window.location.href = "/about";
     
   };
   return (

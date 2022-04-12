@@ -1,12 +1,13 @@
 import React from 'react'
 import{LoginDiv,FormDiv} from './LoginStyles.js'
 import mealSvg from '../../assets/meal.svg'
-// import { useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 
 
   
 const Login = () => {
+  const navigate = useNavigate();
   
   const user = {
     username: "user",
@@ -14,8 +15,9 @@ const Login = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
     sessionStorage.setItem("user", JSON.stringify(user));
+    navigate("/home");
 
-    window.location.href = "/about";
+    // window.location.href = "/about";
     
   };
   return (

@@ -7,7 +7,7 @@ const Navbar = () => {
   const [Open, setOpen] = useState(false);
   return (
     <Nav>
-      <Logo to="/home">{"<Clarusway>"} <span>Recipe</span>
+      <Logo to="/home"><span>Recipe App</span>
       </Logo>
       <NavItemSmall onClick={()=>setOpen(!Open) } >
       <span />

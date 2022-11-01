@@ -24,7 +24,7 @@ const Login = () => {
     <LoginDiv>
         <FormDiv onSubmit={handleSubmit}>
           <img src={mealSvg} alt="" />
-          <h1>{"<Clarusway>"} Recipe</h1>
+          <h1>Recipe App</h1>
           <input type="text" placeholder='Username' required/><br />
           <input type="password" placeholder='Password' required /><br />
           <button type="submit">Login</button>

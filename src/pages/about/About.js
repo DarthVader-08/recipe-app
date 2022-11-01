@@ -6,7 +6,7 @@ const About = () => {
     return (
         <Container>
             <StyleImg src={codingsvg} alt="" />
-            <h1>About Solfware Developer <span>Cem</span></h1>
+            <h1>Solfware Developer <span>Cem</span></h1>
             <Info>
                 <h2 >Hi, I'am Cem</h2>
                 <h3>I’m currently learning Full-Stack Development Languages.</h3>
